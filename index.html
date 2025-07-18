@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortería Rosy - Sabor en Cada Mordida</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand animate__animated animate__fadeInDown" href="#" style="font-family: 'Pacifico', cursive;">Tortería Rosy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">Nuestra Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-rosy-orange text-white ms-lg-3" href="tel:2411200625"><i class="fas fa-phone-alt me-2"></i>Llámanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-section text-white">
+        <div class="container">
+            <h1 class="display-3 animate__animated animate__fadeInDown" style="font-family: 'Pacifico', cursive;">Tortería Rosy</h1>
+            <p class="lead animate__animated animate__fadeInUp animate__delay-1s">El Sabor Tradicional que Enamora en Cada Bocado.</p>
+            <a href="#menu" class="btn btn-rosy-orange btn-lg mt-4 animate__animated animate__zoomIn animate__delay-2s">Ver Nuestro Menú <i class="fas fa-arrow-down ms-2"></i></a>
+        </div>
+    </header>
+
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeInUp text-rosy-orange" style="font-family: 'Pacifico', cursive;" data-aos="fade-up">Nuestro Menú Delicioso</h2>
+
+            <h3 class="mt-5 mb-4 text-rosy-orange" data-aos="fade-right"><i class="fas fa-hamburger me-2"></i>Tortas</h3>
+            <div class="text-center mb-4" data-aos="zoom-in">
+                <img src="imagenes/Tortas.png" class="img-fluid rounded shadow-sm menu-category-img" alt="Imagen Representativa de Tortas">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Cubana</h5><p class="card-text">Milanesa, jamón, queso de puerco, salchicha, quesillo, queso amarillo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$35 <small>(Chica)</small></span><span class="price-grande">$45 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Chorizo con Huevo</h5><p class="card-text">Delicioso chorizo con huevo revuelto y frescas verduras.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$24 <small>(Chica)</small></span><span class="price-grande">$28 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa</h5><p class="card-text">Clásica milanesa de puerco, jugosa y crujiente.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$24 <small>(Chica)</small></span><span class="price-grande">$28 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Pollo</h5><p class="card-text">Deliciosa milanesa de pollo, ideal para un sabor más ligero.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$24 <small>(Chica)</small></span><span class="price-grande">$28 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Pierna con Quesillo</h5><p class="card-text">Jugosa pierna tipo jamon, con delicioso quesillo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$24 <small>(Chica)</small></span><span class="price-grande">$28 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Chorizo</h5><p class="card-text">El sabor intenso del chorizo tradicional.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$22 <small>(Chica)</small></span><span class="price-grande">$26 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Queso Blanco</h5><p class="card-text">Frescura en cada mordida con queso blanco.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$22 <small>(Chica)</small></span><span class="price-grande">$26 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Quesillo</h5><p class="card-text">Frescura y suavidad en cada mordida con queso de hebra.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$22 <small>(Chica)</small></span><span class="price-grande">$26 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Jamón</h5><p class="card-text">El clásico jamón, sencillo pero delicioso.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$20 <small>(Chica)</small></span><span class="price-grande">$25 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Salchicha</h5><p class="card-text">Sabrosas salchichas, ideal para todos.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$20 <small>(Chica)</small></span><span class="price-grande">$25 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Huevo</h5><p class="card-text">Una opción sencilla y nutritiva.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$20 <small>(Chica)</small></span><span class="price-grande">$25 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Queso Puerco</h5><p class="card-text">El auténtico sabor del queso de puerco.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$20 <small>(Chica)</small></span><span class="price-grande">$25 <small>(Grande)</small></span></div></div></div></div>
+            </div>
+
+            <h3 class="mt-5 mb-4 text-rosy-orange" data-aos="fade-right"><i class="fas fa-cubes me-2"></i>Tortas Combinadas</h3>
+            <div class="text-center mb-4" data-aos="zoom-in">
+                <img src="imagenes/Tortascombinadas.png" class="img-fluid rounded shadow-sm menu-category-img" alt="Imagen Representativa de Tortas Combinadas">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa/Chorizo/Huevo</h5><p class="card-text">La combinación perfecta de milanesa, chorizo y huevo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$33 <small>(Chica)</small></span><span class="price-grande">$43 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa/Queso Blanco</h5><p class="card-text">Milanesa con la suavidad del queso blanco.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$34 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa/Salchicha</h5><p class="card-text">Una combinación clásica y llena de sabor.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$35 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa/Pierna</h5><p class="card-text">La fuerza de la milanesa con la jugosidad de la pierna.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$35 <small>(Chica)</small></span><span class="price-grande">$45 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa/Quesillo</h5><p class="card-text">Milanesa gratinada con delicioso quesillo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$34 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa/Chorizo</h5><p class="card-text">La dupla perfecta: milanesa y el sabor intenso del chorizo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$34 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Chorizo/Quesillo</h5><p class="card-text">Chorizo con el toque cremoso y derretido del quesillo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$34 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Jamón/Huevo</h5><p class="card-text">La combinación clásica de jamón y huevo para empezar el día.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$25 <small>(Chica)</small></span><span class="price-grande">$32 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Salchicha/Huevo</h5><p class="card-text">La preferida de muchos: salchicha con huevo revuelto.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$25 <small>(Chica)</small></span><span class="price-grande">$32 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Pierna/Salchicha</h5><p class="card-text">Una combinacion llena de sabor.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$34 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Pollo/Quesillo</h5><p class="card-text">Suave pollo con el inconfundible sabor del quesillo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$28 <small>(Chica)</small></span><span class="price-grande">$34 <small>(Grande)</small></span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Salchicha/Quesillo</h5><p class="card-text">Deliciosa salchicha con el toque derretido del quesillo.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-chica">$25 <small>(Chica)</small></span><span class="price-grande">$32 <small>(Grande)</small></span></div></div></div></div>
+            </div>
+
+            <h3 class="mt-5 mb-4 text-rosy-orange" data-aos="fade-right"><i class="fas fa-bread-slice me-2"></i>Sándwiches</h3>
+            <div class="text-center mb-4" data-aos="zoom-in">
+                <img src="imagenes/Sandwich.jpg" class="img-fluid rounded shadow-sm menu-category-img" alt="Imagen Representativa de Sándwiches">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Jamón</h5><p class="card-text">Clásico sándwich de jamón de primera calidad.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Salchicha</h5><p class="card-text">Sándwich con salchicha, ideal para cualquier momento.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Milanesa</h5><p class="card-text">Crujiente milanesa en pan tostado.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Quesillo</h5><p class="card-text">Sándwich con el delicioso queso oaxaca derretido.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Queso Puerco</h5><p class="card-text">Sándwich con auténtico queso de puerco.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Queso Blanco</h5><p class="card-text">Sándwich ligero y fresco con queso blanco.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+            </div>
+
+            <h3 class="mt-5 mb-4 text-rosy-orange" data-aos="fade-right"><i class="fas fa-blender-phone me-2"></i>Bebidas</h3>
+            <div class="text-center mb-4" data-aos="zoom-in">
+                <img src="imagenes/Bebidas.jpg" class="img-fluid rounded shadow-sm menu-category-img" alt="Imagen Representativa de Bebidas">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Agua para Nescafé</h5><p class="card-text">Agua caliente para acompañar tu café.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$10</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Licuado de Fresa</h5><p class="card-text">Refrescante licuado de fresa natural.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Licuado de Chocolate</h5><p class="card-text">Clásico licuado de chocolate, cremoso y delicioso.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Licuado de Avena</h5><p class="card-text">Nutritivo licuado de avena, ideal para recargar energía.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Licuado de Plátano</h5><p class="card-text">El dulce sabor del plátano en un licuado cremoso.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$20</span></div></div></div></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 shadow-sm menu-item"><div class="card-body"><h5 class="card-title">Refrescos</h5><p class="card-text">Coca Cola, Sprite, Fanta, Fresca, Del Valle, etc.</p><div class="d-flex justify-content-between align-items-center mt-3"><span class="price-unica">$23</span></div></div></div></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="historia" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeInUp text-rosy-orange" style="font-family: 'Pacifico', cursive;" data-aos="fade-up">Nuestra Historia</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="imagenes/Torteria.jpg" class="img-fluid rounded shadow-lg" alt="Tortería Rosy Historia">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <p class="lead" style="font-family: 'Open Sans', sans-serif;">
+                        En Tortería Rosy, cada torta es una historia de pasión y tradición. Nuestro sueño siempre ha sido compartir el auténtico sabor casero con cada bocado.
+                    </p>
+                    <p style="font-family: 'Open Sans', sans-serif;">
+                        Con ingredientes frescos y recetas que han pasado de generación en generación, nos esforzamos por ofrecerte no solo una comida, sino que tambien una grandiosa experiencia.
+                    </p>
+                    <p class="text-muted" style="font-family: 'Open Sans', sans-serif;">
+                        <em>¡Desde 1990 sirviendoles!</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 animate__animated animate__fadeInUp text-rosy-orange" style="font-family: 'Pacifico', cursive;" data-aos="fade-up">Contáctanos y Haz tu Pedido</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card shadow-lg p-4">
+                        <div class="card-body text-center">
+                            <p class="lead mb-4">Estamos listos para atenderte y preparar tu torta favorita.</p>
+                            <h4 class="mb-3"><i class="fas fa-phone-alt me-2 text-rosy-orange"></i>Teléfono</h4>
+                            <p class="fs-4"><a href="tel:2411200625" class="text-decoration-none text-dark">241 120 0625</a></p>
+                            <p class="text-muted">¡Llámanos para hacer tu pedido!</p>
+
+                            <h4 class="mt-4 mb-3"><i class="fas fa-map-marker-alt me-2 text-rosy-orange"></i>Nuestra Ubicación</h4>
+                            <p>¡Visítanos para disfrutar el sabor en persona!</p>
+                            <div class="map-placeholder border rounded mb-4">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.199652516701!2d-98.34833744959086!3d19.469931846467006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d028d4ed569e97%3A0x4a89d96e962ebf61!2sHueyotlipan%20Centro%2C%2090240%20Hueyotlipan%2C%20Tlax.!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <p class="text-muted small">
+                                Calle Hidalgo #27, Col. Centro, Hueyotlipan, Tlaxcala.
+                            </p>
+                            <h4 class="mt-4 mb-3"><i class="fas fa-clock me-2 text-rosy-orange"></i>Horarios</h4>
+                            <p>Lunes a Sábado: 8:00 AM - 9:30 PM</p>
+                            <p>Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>© 2025 Tortería Rosy. Todos los derechos reservados.</p>
+            <div class="social-icons mt-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script> </body>
+</html>
